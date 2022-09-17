@@ -1,9 +1,9 @@
 # FrontEnd
 
-## => Installation de NodeJs
+## 1 Installation de NodeJs
 
-## => npm i
+## 2 npm i
 
-## => Ouvrir deux terminaux
+## 3 Ouvrir deux terminaux
 ### => npm run dev
 ### => npm run css
