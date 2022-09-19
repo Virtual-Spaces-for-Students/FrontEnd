@@ -1,4 +1,4 @@
-import logo from '../../images/logo.png'
+import logo from '../../images/logo_VSS.png'
 import { useState } from 'react';
 
 export default function NavBarHome() {
