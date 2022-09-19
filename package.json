@@ -1,5 +1,5 @@
 {
-  "name": "rsuite-admin-template",
+  "name": "VSS",
   "version": "1.0.0",
   "description": "RSUITE Management System",
   "main": "lib/index.js",
@@ -25,12 +25,6 @@
     "lib",
     "src"
   ],
-  "author": "HYPERS Team",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:rsuite/rsuite-admin-template.git"
-  },
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "@faker-js/faker": "^7.4.0",
