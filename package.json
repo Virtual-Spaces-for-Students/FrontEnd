@@ -7,7 +7,7 @@
     "lib": "lib/"
   },
   "scripts": {
-    "dev": "webpack serve --mode development --port 3100 --host 0.0.0.0 --progress ",
+    "dev": "webpack serve --mode development --port 80 --host 0.0.0.0 --progress ",
     "clear": "rm -rf assets",
     "build:webpack": "NODE_ENV=production  webpack --mode production --progress && cp -R public/* ./assets/ ",
     "build": "npm run clear && npm run build:webpack",
@@ -35,8 +35,10 @@
     "@headlessui/react": "^1.7.0",
     "@rsuite/icons": "^1.0.2",
     "apexcharts": "^3.35.4",
+    "axios": "^0.27.2",
     "classnames": "^2.3.1",
     "date-fns": "^2.29.2",
+    "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
     "prop-types": "^15.6.0",
     "react": "^18.2.0",
