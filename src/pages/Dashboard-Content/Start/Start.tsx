@@ -34,7 +34,7 @@ const Start = () => {
       </div>
     );
   } else if (isLoading === false) {
-    window.location.replace("http://172.18.8.2:8080/auth/login")
+    window.location.replace("https://app.vss.local:8080/auth/login")
   }
 };
 
